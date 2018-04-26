@@ -209,7 +209,7 @@
           "phone": "13800138000"
         };
 
-      logout(user).then(response => {
+      logout(user.id).then(response => {
         console.log("查询Id");
         console.log(response);
       });
