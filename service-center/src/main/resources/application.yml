@@ -1,0 +1,16 @@
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8888/eureka/
+
+server:
+  port: 2222
+spring:
+  application:
+    name: eruake-client
+
+  datasource:
+     url: jdbc:mysql://127.0.0.1:3306/ztyx?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+     username: root
+     password: 123
+     driver-class-name: com.mysql.jdbc.Driver

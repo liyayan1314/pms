@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configcenter" />
+        <module name="pms" />
+        <module name="register" />
+        <module name="service-center" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configcenter" target="1.5" />
+      <module name="pms" target="1.5" />
+      <module name="register" target="1.8" />
+      <module name="service-center" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
